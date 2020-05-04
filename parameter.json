@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualNetworkName": {
+      "value": "Management-VNET"
+    },
+    "localGatewayName": {
+      "value": "On-prem-networks"
+    },
+    "localGatewayIpAddress": {
+      "value": "137.117.100.62"
+    },
+    "localGatewayAddressPrefix": {
+      "value": "10.13.0.0/16"
+    },
+    "gatewayPublicIPName": {
+      "value": "AzureGateway-IP"
+    },
+    "gatewayName": {
+      "value": "AzureGateway-VPN"
+    },
+    "addressPrefix": {
+      "value": "172.23.0.0/20"
+    },
+    "subnet1Prefix": {
+      "value": "172.23.0.0/16"
+    },
+    "gatewaySubnetPrefix": {
+      "value": "172.23.15.0/27"
+    }
+  }
+}
